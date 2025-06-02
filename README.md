@@ -2,9 +2,11 @@
 Evolutionary offline learning framework applied to a Beam Search
 
 To compile the program, use the provided Makefile.
+
 Note: You must specify the path to the EIGEN library within the Makefile.
 
-Solving an Instance
+--- Solving an Instance --- 
+
 To solve an instance, use the following command-line parameters:
 
 -i <path>: Path to the instance file to be solved.
@@ -39,7 +41,8 @@ To solve an instance, use the following command-line parameters:
 
 Important: A file named weights.txt containing trained network weights is required to solve an instance. This file must be in the same format as the one output by the training process.
 
-Training the Neural Network
+--- Training the Neural Network ---
+
 To train the network, the following parameters are available:
 
 -hidden_layers <int>: Number of hidden layers in the neural network.
@@ -64,14 +67,13 @@ To train the network, the following parameters are available:
 
 3 → RKGA with lexicase selection for elite population
 
-Training and Validation Files
 Training instances should be listed in a file named training_files.txt, one per line.
 
 Validation instances should be listed in validation_files.txt, one per line.
 
 The base path to these instance files should be specified in instances_path.txt.
 
-Examples
+--- Examples ---
 Solving an Instance
 ./main -i ../instances/Rahman/converted/data_StrEC-converted/g15.txt \
        -weights weights.txt \
