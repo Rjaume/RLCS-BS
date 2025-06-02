@@ -1,7 +1,6 @@
 # RLCS-BS
 Evolutionary offline learning framework applied to a Beam Search
 
-Compilation
 To compile the program, use the provided Makefile.
 Note: You must specify the path to the EIGEN library within the Makefile.
 
