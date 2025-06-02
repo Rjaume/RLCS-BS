@@ -1,0 +1,1 @@
+-population_size 20 -n_mutants 7 -n_elites 1 -hidden_layers 3 -units 10 10 10 -weight_limit 1 -training_beam_width 500 -activation_function 3 -training_time_limit 345600 -feature_configuration 3 -ga_configuration 2 -rho 0.5 -parallel

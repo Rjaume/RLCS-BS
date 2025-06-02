@@ -1,0 +1,10 @@
+poz_12_10_5.txt
+poz_12_10_6.txt
+poz_12_10_7.txt
+poz_12_10_8.txt
+poz_12_10_9.txt
+neg_12_10_5.txt
+neg_12_10_6.txt
+neg_12_10_7.txt
+neg_12_10_8.txt
+neg_12_10_9.txt
